@@ -28,8 +28,8 @@ jobs:
       - name: Construção da imagem Docker
         uses: docker/build-push-action@v4.0.0
         with:
-          context: src
-          file: Dockerfile
+          context: ./src
+          file: ./src/Dockerfile
           push: true
           tags: |
             vanderleik/aula-conversao:v1
