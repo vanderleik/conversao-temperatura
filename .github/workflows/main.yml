@@ -38,5 +38,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            vanderleik/aula-conversao:v1
+            vanderleik/aula-conversao:${{github.run_number}}
             vanderleik/aula-conversao:latest
